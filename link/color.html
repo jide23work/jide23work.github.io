@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/demo.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="search">
+            <form action="">
+                <select name="cars" class="btn-list" >
+                    <option value="all" class="active" sorts='all'>全部</option>
+                    <option value="color" sorts='other'>其他</option>
+                </select>
+            </form>
+            <input type="text" class="inp" placeholder="关键字搜索">
+        </div>
+        <ul class="user">
+        </ul>
+        <h3 class="prompt">空空如也</h3>
+    </div>
+    </div>
+    <p style="text-align: center; color: #999">已经是最底部啦，没有其他了。。。</p>
+    <script src="./js/imgHover.js"></script>
+    <script src="./js/createStore.js"></script>
+    <script src="./js/color.js"></script>
+    <div id="btn_up"><a href="javascript:scroll(0,0)" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('img_up','','./img/up_t.png',1)">
+            <img alt="up" class="icon_right" id="img_up" src="./img/up.png" />
+        </a></div>
+</body>
+
+</html>
