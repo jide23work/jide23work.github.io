@@ -1,214 +1,241 @@
-var person = [
-    {
-        name:  'Design-seeds',
-        motto:  '为所有人设计种子|♥颜色|灵感调色板',
-        href:  'https://www.design-seeds.com/',
+var person = [{
+        name:   'Design-seeds',
+        motto:   '为所有人设计种子|♥颜色|灵感调色板',
+        href:   'https://www.design-seeds.com/',
         src: 'https://image.thum.io/get/https://www.design-seeds.com/',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'Color Space',
-        motto:  'Color Space是一款非常实用的渐变生成器，你只需要选择一个颜色，就可以生成20~30种不同风格的配色方案，效率不要太高！',
-        href:  'https://mycolor.space/',
+        name:   'Color Space',
+        motto:   'Color Space是一款非常实用的渐变生成器，你只需要选择一个颜色，就可以生成20~30种不同风格的配色方案，效率不要太高！',
+        href:   'https://mycolor.space/',
         src: 'https://image.thum.io/get/https://mycolor.space/',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'Grabient',
-        motto:  '可以编辑的渐变网站',
-        href:  'https://www.grabient.com/',
+        name:   'Grabient',
+        motto:   '可以编辑的渐变网站',
+        href:   'https://www.grabient.com/',
         src: 'https://image.thum.io/get/https://www.grabient.com/',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'COLORLESS',
-        motto:  '快速找到适合界面的颜色',
-        href:  'https://colorless.app/',
+        name:   'COLORLESS',
+        motto:   '快速找到适合界面的颜色',
+        href:   'https://colorless.app/',
         src: 'https://image.thum.io/get/https://colorless.app/',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'AdobeColor',
-        motto:  'Adobe专业配色工具',
-        href:  'https://color.adobe.com/',
+        name:   'AdobeColor',
+        motto:   'Adobe专业配色工具',
+        href:   'https://color.adobe.com/',
         src: 'https://image.thum.io/get/https://color.adobe.com/',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'Coolors',
-        motto:  '在线快速配色生成工具',
-        href:  'https://coolors.co/',
+        name:   'Coolors',
+        motto:   '在线快速配色生成工具',
+        href:   'https://coolors.co/',
         src: 'https://image.thum.io/get/https://coolors.co/',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'Colorhunt',
-        motto:  '每天更新一组简洁舒服的配色方案',
-        href:  'http://www.colorhunt.co/',
+        name:   'Colorhunt',
+        motto:   '每天更新一组简洁舒服的配色方案',
+        href:   'http://www.colorhunt.co/',
         src: 'https://image.thum.io/get/http://www.colorhunt.co/',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'webgradients',
-        motto:  'itmeo旗下180个漂亮渐变色模板',
-        href:  'https://webgradients.com/',
+        name:   'webgradients',
+        motto:   'itmeo旗下180个漂亮渐变色模板',
+        href:   'https://webgradients.com/',
         src: 'https://image.thum.io/get/https://webgradients.com/',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'Trianglify',
-        motto:  '炫酷多边形背景色块生成',
-        href:  'http://qrohlf.com/trianglify-generator/',
+        name:   'Trianglify',
+        motto:   '炫酷多边形背景色块生成',
+        href:   'http://qrohlf.com/trianglify-generator/',
         src: 'https://image.thum.io/get/http://qrohlf.com/trianglify-generator/',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'WebColourData',
-        motto:  '通过网址获取分析网站配色',
-        href:  'http://webcolourdata.com/',
-        src: 'https://image.thum.io/get/http://webcolourdata.com/',
-        sorts:  'color'
+        name:   'WebColourData',
+        motto:   '通过网址获取分析网站配色',
+        href:   'http://webcolourdata.com/',
+        src: 'https://image.thum.io/get/http://mbitson.com/webcolourdata.com/',
+        sorts:   'color'
     },
     {
-        name:  '中国传统色',
-        motto:  '中科院色谱的中国传统色',
-        href:  'http://zhongguose.com/',
+        name:   '中国传统色',
+        motto:   '中科院色谱的中国传统色',
+        href:   'http://zhongguose.com/',
         src: 'https://image.thum.io/get/http://zhongguose.com/',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'Mesh Gradients',
-        motto:  '流行的网格渐变背景免费下载',
-        href:  'https://lstore.graphics/meshgradients/',
+        name:   'Mesh Gradients',
+        motto:   '流行的网格渐变背景免费下载',
+        href:   'https://lstore.graphics/meshgradients/',
         src: 'https://image.thum.io/get/https://lstore.graphics/meshgradients/',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'Picular',
-        motto:  '色彩搜索引擎',
-        href:  'https://picular.co/',
+        name:   'Picular',
+        motto:   '色彩搜索引擎',
+        href:   'https://picular.co/',
         src: 'https://image.thum.io/get/https://picular.co/',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'coolors APP',
-        motto:  '在线配色以及查看优秀的配色方案',
-        href:  'https://coolors.co/browser',
+        name:   'coolors APP',
+        motto:   '在线配色以及查看优秀的配色方案',
+        href:   'https://coolors.co/browser',
         src: 'https://image.thum.io/get/https://coolors.co/browser',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'colourco.de',
-        motto:  '简单易用的在线配色工具',
-        href:  'http://colourco.de',
+        name:   'colourco.de',
+        motto:   '简单易用的在线配色工具',
+        href:   'http://colourco.de',
         src: 'https://image.thum.io/get/http://colourco.de',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'Colllor',
-        motto:  '轻松创建色调一致的配色板',
-        href:  'http://colllor.com',
+        name:   'Colllor',
+        motto:   '轻松创建色调一致的配色板',
+        href:   'http://colllor.com',
         src: 'https://image.thum.io/get/http://colllor.com',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'Colormind',
-        motto:  '智能生成中性色调颜色 (推荐)',
-        href:  'http://colormind.io/',
+        name:   'Colormind',
+        motto:   '智能生成中性色调颜色 (推荐)',
+        href:   'http://colormind.io/',
         src: 'https://image.thum.io/get/http://colormind.io/',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'UIgradients',
-        motto:  '生成美丽的渐变颜色（推荐）',
-        href:  'http://uigradients.com',
+        name:   'UIgradients',
+        motto:   '生成美丽的渐变颜色（推荐）',
+        href:   'http://uigradients.com',
         src: 'https://image.thum.io/get/http://uigradients.com',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'colors.css',
-        motto:  '一个包含16种全新标准色CSS样式表',
-        href:  'http://clrs.cc',
+        name:   'colors.css',
+        motto:   '一个包含16种全新标准色CSS样式表',
+        href:   'http://clrs.cc',
         src: 'https://image.thum.io/get/http://clrs.cc',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'PALETTABLE',
-        motto:  '推荐！智能匹配的颜色赞哦！',
-        href:  'http://www.palettable.io',
+        name:   'PALETTABLE',
+        motto:   '推荐！智能匹配的颜色赞哦！',
+        href:   'http://www.palettable.io',
         src: 'https://image.thum.io/get/http://www.palettable.io',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'Material风格配色',
-        motto:  '轻易搭配出Google Magerial Design的配色方案',
-        href:  'http://www.materialpalette.com',
+        name:   'Material风格配色',
+        motto:   '轻易搭配出Google Magerial Design的配色方案',
+        href:   'http://www.materialpalette.com',
         src: 'https://image.thum.io/get/http://www.materialpalette.com',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'Material UI',
-        motto:  '把所有颜色汇聚在一个页面上',
-        href:  'https://www.materialui.co/colors',
+        name:   'Material UI',
+        motto:   '把所有颜色汇聚在一个页面上',
+        href:   'https://www.materialui.co/colors',
         src: 'https://image.thum.io/get/https://www.materialui.co/colors',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'material mixer',
-        motto:  '快速 DIY 美观的 Material design APP 界面配色',
-        href:  'http://www.sankk.in/material-mixer',
-        src: 'https://image.thum.io/get/http://www.sankk.in/material-mixer',
-        sorts:  'color'
-    },
-    {
-        name:  'MD Palette Generator',
-        motto:  '根据自定义颜色生成配色',
-        href:  'http://mcg.mbitson.com/#',
+        name:   'MD Palette Generator',
+        motto:   '根据自定义颜色生成配色',
+        href:   'http://mcg.mbitson.com/#',
         src: 'https://image.thum.io/get/http://mcg.mbitson.com/#',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'Random material',
-        motto:  '随机搭配一套UI配色方案',
-        href:  'https://codecrafted.net/randommaterial',
+        name:   'Random material',
+        motto:   '随机搭配一套UI配色方案',
+        href:   'https://codecrafted.net/randommaterial',
         src: 'https://image.thum.io/get/https://codecrafted.net/randommaterial',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'Material Colors',
-        motto:  '精选 500 和 A200 色板的颜色',
-        href:  'http://materialcolors.com',
+        name:   'Material Colors',
+        motto:   '精选 500 和 A200 色板的颜色',
+        href:   'http://materialcolors.com',
         src: 'https://image.thum.io/get/http://materialcolors.com',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'MD Colors',
-        motto:  '又一个简单的可视化的Material Design工具',
-        href:  'http://www.materialup.com/tools/colors',
+        name:   'MD Colors',
+        motto:   '又一个简单的可视化的Material Design工具',
+        href:   'http://www.materialup.com/tools/colors',
         src: 'https://image.thum.io/get/http://www.materialup.com/tools/colors',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'tintui',
-        motto:  '只显示 Material Design 中的 500 颜色',
-        href:  'http://tintui.com',
+        name:   'tintui',
+        motto:   '只显示 Material Design 中的 500 颜色',
+        href:   'http://tintui.com',
         src: 'https://image.thum.io/get/http://tintui.com',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  'Colorion',
-        motto:  '分享 Material 设计配色，带收藏夹功能',
-        href:  'http://material.colorion.co',
+        name:   'Colorion',
+        motto:   '分享 Material 设计配色，带收藏夹功能',
+        href:   'http://material.colorion.co',
         src: 'https://image.thum.io/get/http://material.colorion.co',
-        sorts:  'color'
+        sorts:   'color'
     },
     {
-        name:  '日本和色大辞典',
-        motto:  '',
-        href:  'http://www.colordic.org',
+        name:   '日本和色大辞典',
+        motto:   '',
+        href:   'http://www.colordic.org',
         src: 'https://image.thum.io/get/http://www.colordic.org',
-        sorts:  'color'
+        sorts:   'color'
     },
+    {
+        name:   'UI颜色',
+        motto:   '280 种精选颜色平面 UI 颜色 2 具有 13 个以上的调色板。与全球13位设计师合作，总共有280种颜色供您使用，用于复制/粘贴您的下一个项目，设计，演示',
+        href:   'https://flatuicolors.com/',
+        src: 'https://image.thum.io/get/https://flatuicolors.com/',
+        sorts:   'color'
+    },
+    {
+        name:   'brandcolors',
+        motto:   '最大的官方品牌颜色代码集合',
+        href:   'https://brandcolors.net',
+        src: 'https://image.thum.io/get/https://brandcolors.net',
+        sorts:   'color'
+    },
+    {
+        name:   '藏品颜色',
+        motto:   '藏品绘画图片提出颜色',
+        href:   'https://colorleap.app/dates',
+        src: 'https://image.thum.io/get/https://colorleap.app/dates',
+        sorts:   'color'
+    },
+    {
+        name:   '自由网格渐变集合 ',
+        motto:   '',
+        href:   'https://products.ls.graphics/mesh-gradients',
+        src: 'https://image.thum.io/get/https://products.ls.graphics/mesh-gradients',
+        sorts:   'color'
+    },
+    {
+        name:   '酷休渐变调色板插件',
+        motto:   '您可以从自己喜欢的原型工具（如Sketch App和Figma）中直接访问渐变调色板。',
+        href:   'https://webkul.github.io/coolhue',
+        src: 'https://image.thum.io/get/https://webkul.github.io/coolhue',
+        sorts:   'color'
+    }
 ]
 var inp = document.getElementsByClassName('inp')[0],
     btnList = document.getElementsByClassName('btn-list')[0],
